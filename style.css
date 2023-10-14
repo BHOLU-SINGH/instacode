@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.container .privacy-policy{
+    width: 50%;
+    margin: 1rem;
+    padding: 2rem 3rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.container .privacy-policy h1{
+    text-align: center;
+}
+
+.container .privacy-policy ul li{
+    margin-bottom: 0.2rem;
+    margin-left: 1.6rem;
+}
+.privacy-policy p{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.privacy-policy a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.privacy-policy a:hover{
+    text-decoration: underline;
+}
